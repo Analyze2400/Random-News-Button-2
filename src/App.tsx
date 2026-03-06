@@ -15,7 +15,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('/api/news/random');
+      const response = await fetch('/api/news');
       if (!response.ok) {
         throw new Error('Failed to fetch news');
       }
