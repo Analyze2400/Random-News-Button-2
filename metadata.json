@@ -1,0 +1,5 @@
+{
+  "name": "Random News Button",
+  "description": "A big red button that takes you to a random news article.",
+  "requestFramePermissions": []
+}
